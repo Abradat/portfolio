@@ -1,0 +1,8 @@
+enable: true
+filters:
+  - web
+  - ai
+  - unity
+  - os
+  - robotics
+  - mobile
