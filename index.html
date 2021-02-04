@@ -489,10 +489,10 @@
             {% for project in site.projects %}
               <div class="col-lg-4 col-md-6 portfolio-item {{project.filter}}">
                 <div class="portfolio-wrap">
-                  <img src="assets/img/portfolio/portfolio-1.jpg" class="img-fluid" alt="">
+                  <img src="assets/img/portfolio/{{project.name}}/{{project.badge-image}}" class="img-fluid" alt="">
                   <div class="portfolio-info">
                     <h4>{{project.title}}</h4>
-                    <p>{{project.description}}</p>
+                    <p>{{project.badge-description}}</p>
                     <div class="portfolio-links">
                       <!-- <a href="assets/img/portfolio/portfolio-1.jpg" data-gall="portfolioGallery" class="venobox" title="App 1"><i class="bx bx-plus"></i></a> -->
                       <a href="{{project.url}}" data-gall="portfolioDetailsGallery" data-vbtype="iframe" class="venobox" title="Portfolio Details"><i class="bx bx-link"></i></a>

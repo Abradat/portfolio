@@ -1,17 +1,20 @@
 ---
-layout: portfolio_detail
+layout: portfolio_detail_large
 order: 4
 title:  PS5 News Crawler
 name: ps5-news-crawler
-description: PS5 News Crawler Description
-filter: filter-ai
-badge-image:
-category:
+badge-description: A web application for crawling the latest news from CNN and latest tweets from Twitter about PS5 console.
+filter: filter-web filter-ai
+badge-image: badge.jpeg
+category: Web, AI
 client:
-project-date:
+project-date: December 2020
 project-url:
+github-repository: abradat/ps5-news
+full-description:
 images:
-    - 'testimonials-1.jpg'
-    - 'testimonials-2.jpg'
-    - 'testimonials-3.jpg'
+    - 'cnn-overall.png'
+    - 'cnn-details.png'
+    - 'twitter-overall.png'
 ---
+## Introduction
