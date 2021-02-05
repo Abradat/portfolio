@@ -5,7 +5,7 @@ title:  Linux Kernel Module
 name: linux-kernel-module
 badge-description: A kernel module for hooking read and write system calls and encryption using ROT13
 filter: filter-os
-badge-image: badge.png
+badge-image: badge.jpg
 category: Operating Systems
 client:
 project-date: Fall 2019

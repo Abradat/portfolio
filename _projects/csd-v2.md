@@ -5,7 +5,7 @@ title:  CSD V2
 name: csd-v2
 badge-description: CSD V2 Description
 filter: filter-web
-badge-image:
+badge-image: badge.png
 category:
 client:
 project-date:
@@ -16,4 +16,4 @@ images:
     - 'testimonials-2.jpg'
     - 'testimonials-3.jpg'
 ---
-<img src="/assets/img/hero-bg.jpg" alt="drawing" width="200"/>
+## Introduction
