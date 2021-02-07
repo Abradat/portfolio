@@ -1,6 +1,6 @@
 ---
 layout: portfolio_detail
-order: 5
+order: 4
 title:  Coco (Unity Game)
 name: coco
 badge-description: A puzzle game made with Unity with Image processing for interaction
