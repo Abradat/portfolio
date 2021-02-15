@@ -1,17 +1,41 @@
 ---
-layout: portfolio_detail
+layout: portfolio_detail_large
 order: 3
-title:  Iranian Instant Payment
+title:  Iranian Instant Payment (IIP)
 name: iip
-description: Iranian Instant Payment Description
+badge-description: Iranian Instant Payment (IIP) is Central Bnak of Iran's newest payment system.
 filter: filter-web
 badge-image: badge-2.png
-category:
-client:
-project-date:
+category: Web
+client: Central Bank of Iran (CBI)
+project-date: August 2019 - Present
 project-url:
+full-description: Iranian Instant Payment is Central Bnak of Iran's newest payment system.
 images:
-    - 'testimonials-1.jpg'
-    - 'testimonials-2.jpg'
-    - 'testimonials-3.jpg'
+    - 'shn-01.png'
+    - 'shn-02.png'
+    - 'shn-04.png'
+    - 'shn-05.png'
 ---
+#### Introduction
+IIP is Central Bank of Iran’s newest inter-bank payment system. IIP services are available all-around-the clock and should result in the immediate or close to immediate crediting of the Beneficiary’s account. The project is based on **microservice** architecture.
+
+#### My Responsibilites
+1. Developed a **Socket.IO** client based on Spring Boot for pre-defined communication between IIP and consumer banks. The client receives from and send messages to consumer banks using **IBM MQ** and communicates with Socket.IO server.
+2. Developed a terminal for real-time communication between the **Angular** application and the server’s command line using **WebSocket** and **Xterm.js**.
+3. **Netflix Zuul** gateway implementation for receving messages from clients based on REST endpoints and delivering them to destination services using **Apache Kafka**. For service discovery, **Eureka** server is used. [```[Source Code]```](https://github.com/Abradat/inbound-gateway){:target="_blank"}
+
+#### Technologies/Languaes Used
+
+{: .table .table-striped}
+| Technology | Usage | Website |
+|------------------|--------|---------|
+| <img src="/assets/img/portfolio/technologies/java.png" width="60" height="60"> | **Java** is used for developing backend services | [www.java.com](https://java.com){:target="_blank"} |
+| <img src="/assets/img/portfolio/technologies/typescript.png" width="60" height="60"> | **Typescript** is the main language used for developing Angular applications. | [www.typescriptlang.org](https://www.typescriptlang.org/){:target="_blank"} |
+| <img src="/assets/img/portfolio/technologies/spring-boot.png" width="60" height="60"> | **Spring Boot** framrwork is used for developing backend services based on **microservices** architecture | [www.spring.io/projects/spring-boot](https://spring.io/projects/spring-boot){:target="_blank"} |
+| <img src="/assets/img/portfolio/technologies/spring.png" width="60" height="60"> | **Spring** frameworks, including Spring Cloud, Spring Security, Spring Data, etc. are used for developing backend services. | [www.spring.io](https://spring.io){:target="_blank"} |
+| <img src="/assets/img/portfolio/technologies/socketio.png" width="60" height="60"> | **Socket IO** library is used for implementing its client for real-time communication with server | [www.socket.io](https://socket.io/){:target="_blank"} |
+| <img src="/assets/img/portfolio/technologies/ibm-mq.png" width="60" height="60"> | **IMB MQ** is a message queue which is used for exchanging messages between Socket IO client and banks themselves | [www.ibm.com](https://www.ibm.com/support/knowledgecenter/en/SSFKSJ_8.0.0/com.ibm.mq.helphome.v80.doc/WelcomePagev8r0.html){:target="_blank"} |
+| <img src="/assets/img/portfolio/technologies/angular.png" width="60" height="60"> | **Angular** framework is used for developing GUI web applications. | [www.angular.io](https://www.angular.io){:target="_blank"}|
+| <img src="/assets/img/portfolio/technologies/docker.png" width="60" height="60"> | **Docker** is used for virtualization and containerizing services, including backend and frontend services. | [www.docker.com](https://www.docker.com/){:target="_blank"} |
+| <img src="/assets/img/portfolio/technologies/svn.png" width="100" height="60"> | **SVN** is used for version control | [www.tortoisesvn.net](https://tortoisesvn.net/){:target="_blank"} |

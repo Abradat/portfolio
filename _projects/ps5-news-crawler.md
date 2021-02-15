@@ -22,8 +22,21 @@ This project is developed for crawling recent articles from **CNN** and recent *
 
 #### Components
 
-* hello
-* hello
+1. **Spring Boot Server Application**: This application is responsible for crawling data from CNN and Twitter. Also, it exposes REST endpoints for fetching crawled data.
+2. **Angular Application**: The GUI web application for viewing crawled data and requesting for further crawls.
+3. **Selenium**: Selenium provides powerful features for web browsing automation. It is used for crawling the CNN website.
+4. **PostgreSQL**: This databased is used for storing crawled data from CNN and Twitter.
+
+#### Data Crawling
+
+1. ##### CNN Crawling
+    The latest articles about PS5 is fetched from search section of CNN's website. Like many other modern websites, CNN pages are dynamic. It makes AJAX calls for receiving the latest search results. Hence, utilizing traditional parsers are not useful for crawling the search results.  
+    
+    Selenium can be utilized for automated crawling complex websites. it gives the user full control of the browser. For example, in crawling search results, the results will arrive after some time. So, the result elements are not available, and the user has to wait for the elements to be completely loaded. Selenium wait functions gives the user the ability to wait for some elements to load.
+2. ##### Twitter Crawling
+    Instead of using selenium, Twitter's Developer API is used for crawling data. Each time the latest 25 tweets containing the word PS5 are fetched from Twitter. Username, publish date, and text of the tweets are extracted from the results.
+
+    Then, the body of tweet is analyzed by Stanford Core NLP for extracting the tweet's sentiment and labeling it in the GUI application. There are five possible values including, [VERY POSITIVE, POSITIVE, NEUTRAL, NEGATIVE, and VERY_NEGATIVE]. Tweet's sentiment is persisted with other fields extracted to the database.
 
 #### Technologies/Languages Used
 
@@ -32,10 +45,12 @@ This project is developed for crawling recent articles from **CNN** and recent *
 |------------------|--------|---------|
 | <img src="/assets/img/portfolio/technologies/java.png" width="60" height="60"> | **Java** is used for developing backend services | [www.java.com](https://java.com){:target="_blank"} |
 | <img src="/assets/img/portfolio/technologies/typescript.png" width="60" height="60"> | **Typescript** is the main language used for developing Angular applications. | [www.typescriptlang.org](https://www.typescriptlang.org/){:target="_blank"} |
-| <img src="/assets/img/portfolio/technologies/spring-boot.png" width="60" height="60"> | **Spring Boot** framrwork is used for developing backend services based on **microservices** architecture | [www.spring.io/projects/spring-boot](https://spring.io/projects/spring-boot){:target="_blank"} |
+| <img src="/assets/img/portfolio/technologies/spring-boot.png" width="60" height="60"> | **Spring Boot** framrwork is used for developing backend services for exposing REST endpoints and crawling CNN and Twitter | [www.spring.io/projects/spring-boot](https://spring.io/projects/spring-boot){:target="_blank"} |
 | <img src="/assets/img/portfolio/technologies/spring.png" width="60" height="60"> | **Spring** frameworks, including Spring Cloud, Spring Security, Spring Data, etc. are used for developing backend services. | [www.spring.io](https://spring.io){:target="_blank"} |
-| <img src="/assets/img/portfolio/technologies/angular.png" width="60" height="60"> | **Angular** framework is used for developing GUI web applications. | [www.angular.io](https://www.angular.io){:target="_blank"} |
-| <img src="/assets/img/portfolio/technologies/keycloak.png" width="60" height="60"> | **Keycloak** acts as the authentication and authorization service for the system. It is based on OpenID Connect and OAuth2 | [www.keycloak.org](https://www.keycloak.org/){:target="_blank"} |
+| <img src="/assets/img/portfolio/technologies/core-nlp.png" width="120" height="60"> | **Stanford Core NLP** is used for extracting crawled tweets' sentiments in order to analyze people's oponion about PS5| [www.spring.io](https://spring.io){:target="_blank"} |
+| <img src="/assets/img/portfolio/technologies/angular.png" width="60" height="60"> | **Angular** framework is used for developing GUI web applications. | [www.angular.io](https://www.angular.io){:target="_blank"}|
+| <img src="/assets/img/portfolio/technologies/selenium.png" width="60" height="60"> | **SELENIUM** is an standalone browser for crawling CNN. | [www.selenium.dev](https://www.selenium.dev){:target="_blank"} |
 | <img src="/assets/img/portfolio/technologies/docker.png" width="60" height="60"> | **Docker** is used for virtualization and containerizing services, including backend and frontend services. | [www.docker.com](https://www.docker.com/){:target="_blank"} |
-| <img src="/assets/img/portfolio/technologies/oracledb.png" width="100" height="60"> | **Oracle** databse is used in this project. | [www.oracle.net](https://oracle.com){:target="_blank"} |
-| <img src="/assets/img/portfolio/technologies/svn.png" width="100" height="60"> | **SVN** is used for version control | [www.tortoisesvn.net](https://tortoisesvn.net/){:target="_blank"} |
+| <img src="/assets/img/portfolio/technologies/postgre.png" width="60" height="60"> | **PostgreSQL** databse is used for persisting news and tweets | [www.postgresql.org](https://www.postgresql.org/){:target="_blank"}|
+| <img src="/assets/img/portfolio/technologies/nginx.svg" width="110" height="60"> | **NGINX** web server is used for deploying angular application. | [www.nginx.com](https://nginx.com){:target="_blank"} |
+| <img src="/assets/img/portfolio/technologies/git.png" width="60" height="60"> | **Git** is used for version control. | [www.git-scm.com](https://git-scm.com){:target="_blank"} |
