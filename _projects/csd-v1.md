@@ -1,11 +1,11 @@
 ---
 layout: portfolio_detail
-order: 2
+order: 4
 title:  CSD V1
 name: csd-v1
 badge-description: CSD V1 Description
 filter: filter-web
-badge-image: badge.png
+badge-image: badge.jpg
 category:
 client:
 project-date:

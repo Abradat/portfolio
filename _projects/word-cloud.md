@@ -5,7 +5,7 @@ title:  Word Cloud
 name: word-cloud
 badge-description: A project for generating word clouds for persian pop and rap songs and 
 filter: filter-web
-badge-image: badge.jpg
+badge-image: badge.png
 category: Web
 client:
 project-date: Winter 2018

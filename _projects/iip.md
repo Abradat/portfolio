@@ -5,7 +5,7 @@ title:  Iranian Instant Payment
 name: iip
 description: Iranian Instant Payment Description
 filter: filter-web
-badge-image: badge.png
+badge-image: badge-2.png
 category:
 client:
 project-date:
