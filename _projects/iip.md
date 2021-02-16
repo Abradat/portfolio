@@ -28,14 +28,14 @@ IIP is Central Bank of Iran’s newest inter-bank payment system. IIP services a
 #### Technologies/Languaes Used
 
 {: .table .table-striped}
-| Technology | Usage | Website |
-|------------------|--------|---------|
-| <img src="/assets/img/portfolio/technologies/java.png" width="60" height="60"> | **Java** is used for developing backend services | [www.java.com](https://java.com){:target="_blank"} |
-| <img src="/assets/img/portfolio/technologies/typescript.png" width="60" height="60"> | **Typescript** is the main language used for developing Angular applications. | [www.typescriptlang.org](https://www.typescriptlang.org/){:target="_blank"} |
-| <img src="/assets/img/portfolio/technologies/spring-boot.png" width="60" height="60"> | **Spring Boot** framrwork is used for developing backend services based on **microservices** architecture | [www.spring.io/projects/spring-boot](https://spring.io/projects/spring-boot){:target="_blank"} |
-| <img src="/assets/img/portfolio/technologies/spring.png" width="60" height="60"> | **Spring** frameworks, including Spring Cloud, Spring Security, Spring Data, etc. are used for developing backend services. | [www.spring.io](https://spring.io){:target="_blank"} |
-| <img src="/assets/img/portfolio/technologies/socketio.png" width="60" height="60"> | **Socket IO** library is used for implementing its client for real-time communication with server | [www.socket.io](https://socket.io/){:target="_blank"} |
-| <img src="/assets/img/portfolio/technologies/ibm-mq.png" width="60" height="60"> | **IMB MQ** is a message queue which is used for exchanging messages between Socket IO client and banks themselves | [www.ibm.com](https://www.ibm.com/support/knowledgecenter/en/SSFKSJ_8.0.0/com.ibm.mq.helphome.v80.doc/WelcomePagev8r0.html){:target="_blank"} |
-| <img src="/assets/img/portfolio/technologies/angular.png" width="60" height="60"> | **Angular** framework is used for developing GUI web applications. | [www.angular.io](https://www.angular.io){:target="_blank"}|
-| <img src="/assets/img/portfolio/technologies/docker.png" width="60" height="60"> | **Docker** is used for virtualization and containerizing services, including backend and frontend services. | [www.docker.com](https://www.docker.com/){:target="_blank"} |
-| <img src="/assets/img/portfolio/technologies/svn.png" width="100" height="60"> | **SVN** is used for version control | [www.tortoisesvn.net](https://tortoisesvn.net/){:target="_blank"} |
+| Technology | Usage |
+|------------------|--------|
+| <img src="/assets/img/portfolio/technologies/java.png" width="60" height="60"> | **Java** is used for developing backend services |
+| <img src="/assets/img/portfolio/technologies/typescript.png" width="60" height="60"> | **Typescript** is the main language used for developing Angular applications. |
+| <img src="/assets/img/portfolio/technologies/spring-boot.png" width="60" height="60"> | **Spring Boot** framrwork is used for developing backend services based on **microservices** architecture |
+| <img src="/assets/img/portfolio/technologies/spring.png" width="60" height="60"> | **Spring** frameworks, including Spring Cloud, Spring Security, Spring Data, etc. are used for developing backend services. |
+| <img src="/assets/img/portfolio/technologies/socketio.png" width="60" height="60"> | **Socket IO** library is used for implementing its client for real-time communication with server |
+| <img src="/assets/img/portfolio/technologies/ibm-mq.png" width="60" height="60"> | **IBM MQ** is a message queue which is used for exchanging messages between Socket IO client and banks themselves |
+| <img src="/assets/img/portfolio/technologies/angular.png" width="60" height="60"> | **Angular** framework is used for developing GUI web applications. |
+| <img src="/assets/img/portfolio/technologies/docker.png" width="60" height="60"> | **Docker** is used for virtualization and containerizing services, including backend and frontend services. |
+| <img src="/assets/img/portfolio/technologies/svn.png" width="100" height="60"> | **SVN** is used for version control |

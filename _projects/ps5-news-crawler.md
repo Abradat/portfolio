@@ -22,10 +22,10 @@ This project is developed for crawling recent articles from **CNN** and recent *
 
 #### Components
 
-1. **Spring Boot Server Application**: This application is responsible for crawling data from CNN and Twitter. Also, it exposes REST endpoints for fetching crawled data.
-2. **Angular Application**: The GUI web application for viewing crawled data and requesting for further crawls.
-3. **Selenium**: Selenium provides powerful features for web browsing automation. It is used for crawling the CNN website.
-4. **PostgreSQL**: This databased is used for storing crawled data from CNN and Twitter.
+**Spring Boot Server Application**: This application is responsible for crawling data from CNN and Twitter. Also, it exposes REST endpoints for fetching crawled data.  
+**Angular Application**: The GUI web application for viewing crawled data and requesting for further crawls.  
+**Selenium**: Selenium provides powerful features for web browsing automation. It is used for crawling the CNN website.  
+**PostgreSQL**: This databased is used for storing crawled data from CNN and Twitter.
 
 #### Data Crawling
 

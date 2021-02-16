@@ -51,7 +51,7 @@
             <h2 class="portfolio-title">{{page.title}}</h2>
             <div class="owl-carousel portfolio-details-carousel">
                 {% for image in page.images %}
-                    <img src="/assets/img/portfolio/{{page.name}}/{{image}}" class="img-fluid" alt="" style="height: fit-content; width: fit-content;">
+                    <img src="/assets/img/portfolio/{{page.name}}/{{image}}" class="img-fluid" alt="" style="max-width: fit-content; max-height: fit-content;">
                     <!-- <figcaption class="figure-caption">A caption for the above image.</figcaption> -->
                 {% endfor %}
             </div>
