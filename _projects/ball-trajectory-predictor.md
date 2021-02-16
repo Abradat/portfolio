@@ -11,7 +11,7 @@ client:
 project-date: Fall 2018 - Fall 2019
 project-url:
 github-repository: abradat/ball-trajectory-predictor
-full-description:
+full-description: This project 
 images:
     - 'direct-mapped.png'
     - 'result.png'
