@@ -12,10 +12,18 @@ project-date: December 2020
 project-url:
 github-repository: abradat/ps5-news
 full-description: This project is web based application for crawling latest news from CNN and latest tweets and analyzing people's oponion about Sony's last gaming console, PS5.
+# images:
+#     - 'cnn-overall.png'
+#     - 'cnn-details.png'
+#     - 'twitter-overall.png'
 images:
-    - 'cnn-overall.png'
-    - 'cnn-details.png'
-    - 'twitter-overall.png'
+    - address: 'cnn-overall.png'
+      caption: 'List of crawled news from CNN'
+    - address: 'cnn-details.png'
+      caption: 'Details of the news crawled from CNN'
+    - address: 'twitter-overall.png'
+      caption: 'List of tweets crawled from Twitter'
+    
 ---
 #### Introduction
 This project is developed for crawling recent articles from **CNN** and recent **tweets** from people about the latest released console, PS5.

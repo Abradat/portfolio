@@ -13,7 +13,8 @@ project-url:
 github-repository: abradat/microservices-saga
 full-description: Saga is a pattern for managing distributed transactions in microservices.
 images:
-    - 'saga.png'
+    - address: 'saga.png'
+      caption: 'Hexagonal Architecture of the project consitsted of Mail and Tweet services, their components and communications'
 ---
 #### Introduction
 One of the main concerns in the microservices architecture is distributed transaction management because a single transaction from user can span across various services. It gets more complicated when the transaction fails and it should be rolled back in all the previous engaged services. One of the patterns which has been introduced for solving this concern is named **Saga**.

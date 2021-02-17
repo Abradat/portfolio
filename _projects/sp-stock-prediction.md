@@ -16,4 +16,12 @@ images:
     - 'testimonials-2.jpg'
     - 'testimonials-3.jpg'
 ---
-## Introduction
+#### Oveview
+#### Languages/Technologies Used
+
+{: .table .table-striped}
+| Technology | Usage |
+|------------------|--------|
+| <img src="/assets/img/portfolio/technologies/python.png" width="60" height="60"> | **Python** language is used for developing the applications |
+| <img src="/assets/img/portfolio/technologies/tensorflow.png" width="60" height="60"> | **Tensorflow** is the framework for developing machine learning applications |
+| <img src="/assets/img/portfolio/technologies/git.png" width="60" height="60"> | **Git** is used for the version control |

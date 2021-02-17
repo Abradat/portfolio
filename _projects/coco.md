@@ -13,12 +13,18 @@ project-url:
 github-repository: abradat/coco-unity
 full-description: Coco is a unity game 
 images:
-    - '1.png'
-    - '2.png'
-    - '3.png'
-    - '4.png'
-    - '5.png'
-    - '6.png'
+    - address: '1.png'
+      caption: ''
+    - address: '2.png'
+      caption: ''
+    - address: '3.png'
+      caption: ''
+    - address: '4.png'
+      caption: ''
+    - address: '5.png'
+      caption: ''
+    - address: '6.png'
+      caption: ''
 ---
 #### Introduction
 Coco is a 2D puzzle game that is focused on **Human-Computer Interaction (HCI)** and guessing words by connecting letters together. The player can interact with the game either by matching the letters via mouse (or touch screen) or using pre-defined hand gestures that are recognized by the **image processing** algorithm. It is the combination of the final projects for the courses “Design of Computer Games” and “Foundation of Computer Vision.”

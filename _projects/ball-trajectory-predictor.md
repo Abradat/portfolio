@@ -11,9 +11,12 @@ client:
 project-date: Fall 2018 - Fall 2019
 project-url:
 github-repository: abradat/ball-trajectory-predictor
-full-description: This project 
+full-description: Method for prediciting a rolling ball's trajectory based on the combination of K-NN Regression and Autoregression methods.
 images:
     - 'direct-mapped.png'
     - 'result.png'
     - 'architecture.png'
 ---
+#### Introduction
+
+#### Technologies/Languages Used

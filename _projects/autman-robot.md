@@ -7,13 +7,18 @@ badge-description: AUTMan Team's teen size humanoid robot for participating in r
 filter: filter-robotics filter-ai
 badge-image: badge.jpg
 category: Robotics, AI
-client:
+client: Bio-Inspired System Design Lab
 project-date: Summer 2016 - February 2020
 project-url:
-github-repository: abradat/pcap-parser
+# github-repository: abradat/pcap-parser
 full-description:
 images:
     - 'direct-mapped.png'
     - 'result.png'
     - 'architecture.png'
 ---
+#### Introduction
+#### Walk Tuner
+#### Offset Tuner
+#### Motion Editor
+#### Technologies/Languages Used

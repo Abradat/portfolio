@@ -44,51 +44,32 @@
     <!-- ======= Portfolio Details ======= -->
     <section id="portfolio-details" class="portfolio-details">
       <div class="container" data-aos="fade-up">
-
         <div class="row">
-
-          <div class="col-lg-8">
-            <h2 class="portfolio-title">{{page.title}}</h2>
-            <div class="owl-carousel portfolio-details-carousel text-center">
-                {% for image in page.images %}
-                    <figure class="figure">
-                      <img src="/assets/img/portfolio/{{page.name}}/{{image.address}}" class="img-fluid" alt="" style="max-width: fit-content; max-height: fit-content;">
-                       <figcaption class="figure-caption text-center" style="color: black;">{{image.caption}}</figcaption>
-                    </figure>
-
-                    <!-- <figcaption class="figure-caption">A caption for the above image.</figcaption> -->
-                {% endfor %}
+            <div class="col-lg-9 order-lg-1 order-2 portfolio-info">
+                {{content}}
+            </div>
+            <div class="col-lg-3 order-lg-2 order-1 portfolio-info border-left border-top rounded-top border-primary">
+              <h3>Project information</h3>
+              <ul>
+                <li><strong>Category</strong>: {{page.category}}</li>
+                {% if page.client %}<li><strong>Client</strong>: {{page.client}}</li>{% endif %}
+                <li><strong>Project date</strong>: {{page.project-date}}</li>
+                {% if page.project-url %}
+                <li><strong>Project URL</strong>: <a href="#">www.example.com</a></li>
+                {% endif %}
+                {% if page.github-repository %}
+                <li><strong>Github Repository</strong>: 
+                  <a target="_blank" href="https://github.com/{{page.github-repository}}">https://github.com/{{page.github-repository}}</a>
+                </li>
+                {% endif %}
+              </ul>
+  
+              <p>
+                <strong>Project Description</strong><br>
+                {{page.full-description}}
+              </p>
             </div>
           </div>
-
-          <div class="col-lg-4 portfolio-info">
-            <h3>Project information</h3>
-            <ul>
-              <li><strong>Category</strong>: {{page.category}}</li>
-              {% if page.client %}<li><strong>Client</strong>: {{page.client}}</li>{% endif %}
-              <li><strong>Project date</strong>: {{page.project-date}}</li>
-              {% if page.project-url %}
-              <li><strong>Project URL</strong>: <a href="#">www.example.com</a></li>
-              {% endif %}
-              {% if page.github-repository %}
-              <li><strong>Github Repository</strong>: 
-                <a target="_blank" href="https://github.com/{{page.github-repository}}">https://github.com/{{page.github-repository}}</a>
-              </li>
-              {% endif %}
-            </ul>
-
-            <p>
-              <strong>Project Description</strong><br>
-              {{page.full-description}}
-            </p>
-          </div>
-
-        </div>
-        <div class="row">
-          <div class="col-lg-12 portfolio-info">
-              {{content}}
-          </div>
-        </div>
 
       </div>
     </section><!-- End Portfolio Details -->

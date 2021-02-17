@@ -13,7 +13,10 @@ project-url:
 github-repository: abradat/CacheSimulator
 full-description:
 images:
-    - 'direct-mapped.png'
-    - 'result.png'
-    - 'architecture.png'
+    - address: 'direct-mapped.png'
+      caption: 'Direct Mapped strategy procedure'
+    - address: 'result.png'
+      caption: 'Result of the direct mapped strategy'
+    - address: 'architecture.png'
+      caption: 'Overall architecture of the application'
 ---
