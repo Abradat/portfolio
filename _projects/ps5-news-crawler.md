@@ -23,6 +23,8 @@ images:
       caption: 'Details of the news crawled from CNN'
     - address: 'twitter-overall.png'
       caption: 'List of tweets crawled from Twitter'
+    - address: 'twitter-detail.png'
+      caption: 'Detail of a tweet with sentiment analysis tag'
     
 ---
 #### Introduction
@@ -44,7 +46,7 @@ This project is developed for crawling recent articles from **CNN** and recent *
 2. ##### Twitter Crawling
     Instead of using selenium, Twitter's Developer API is used for crawling data. Each time the latest 25 tweets containing the word PS5 are fetched from Twitter. Username, publish date, and text of the tweets are extracted from the results.
 
-    Then, the body of tweet is analyzed by Stanford Core NLP for extracting the tweet's sentiment and labeling it in the GUI application. There are five possible values including, [VERY POSITIVE, POSITIVE, NEUTRAL, NEGATIVE, and VERY_NEGATIVE]. Tweet's sentiment is persisted with other fields extracted to the database.
+    Then, the body of tweet is analyzed by **Stanford Core NLP** for extracting the tweet's sentiment and labeling it in the GUI application. There are five possible values including, [VERY POSITIVE, POSITIVE, NEUTRAL, NEGATIVE, and VERY_NEGATIVE]. Tweet's sentiment is persisted with other fields extracted to the database.
 
 #### Technologies/Languages Used
 

@@ -3,17 +3,24 @@ layout: portfolio_detail
 order: 5
 title:  Word Cloud
 name: word-cloud
-badge-description: A project for generating word clouds for persian pop and rap songs and 
-filter: filter-web
+badge-description: A project for generating word clouds for persian pop/rap songs and machine learning for predicting songs' genre. 
+filter: filter-web filter-ai
 badge-image: badge.png
-category: Web
+category: Web, AI
 client:
-project-date: Winter 2018
+project-date: Spring 2018
 project-url:
-github-repository: abradat/microservices-saga
-full-description:
+github-repository: abradat/WordMap
+full-description: A project for generating word clouds for persian pop/rap songs and machine learning for predicting songs' genre. 
 images:
-    - 'direct-mapped.png'
-    - 'result.png'
-    - 'architecture.png'
+    - address: 'direct-mapped.png'
+      caption: 
+    - address: 'result.png'
+      caption: 
+    - address: 'architecture.png'
+      caption: 
 ---
+#### World Cloud
+#### Naive Bayes
+#### Vopal Vabit
+#### Technologies/Languages Used

@@ -14,6 +14,9 @@ github-repository: abradat/kernel-hook-module
 full-description: A kernel module for hooking read and write system calls and encryption using ROT13
 ---
 #### Introduction
+This project is a module for hooking system calls at the kernel level. This module should encrypt inputs from user when **echo** and **tee** commands are called and decrypt them when **cat** command is called. **ROT13** algorithm is used for encryption.
+
+**cat** command is used for reading the content of a file and printing as the output. Also, **echo** and **tee** commands are used for writing inputs. We can retrieve system calls in each command by utilizing **strace** command. In order to change the functionality of cat, echo, and tee commands, **read** and **write** system calls are hooked at kernel level and the encryption/decryption algorithm code is injected before these system calls are called.
 #### Technologies/Languages Used
 
 {: .table .table-striped}

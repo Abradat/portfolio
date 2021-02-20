@@ -14,9 +14,9 @@ github-repository: abradat/coco-unity
 full-description: Coco is a unity game 
 images:
     - address: '1.png'
-      caption: ''
+      caption: 'Main game screen. Matched words "EDIT" and "TIDE"'
     - address: '2.png'
-      caption: ''
+      caption: 'Main game screen. Matched word "EDIT".'
     - address: '3.png'
       caption: ''
     - address: '4.png'
