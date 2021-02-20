@@ -1,6 +1,7 @@
 collections:
   projects:
     output: true
+    permalink: /projects/:path/
     sort_by: order
 # markdown: kramdown
 # highlighter: rouge
