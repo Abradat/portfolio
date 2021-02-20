@@ -1,19 +1,15 @@
 ---
-layout: portfolio_detail
+layout: portfolio_detail_text
 order: 8
 title:  Pcap Parser
 name: pcap-parser
-badge-description: A kernel module for hooking read and write system calls and encryption using ROT13
+badge-description: An application for extracting data from pcap files.
 filter: filter-os
 badge-image: badge.png
 category: Operating Systems
-client:
+client: Karafari
 project-date: Fall 2017
 project-url:
 github-repository: abradat/pcap-parser
-full-description:
-images:
-    - 'direct-mapped.png'
-    - 'result.png'
-    - 'architecture.png'
+full-description: An application for extracting data from pcap files.
 ---
