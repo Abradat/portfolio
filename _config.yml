@@ -3,9 +3,9 @@ collections:
     output: true
     sort_by: order
     permalink: :collection/:name
-baseurl: "" # the subpath of your site, e.g. /blog/
+baseurl: "portfolio" # the subpath of your site, e.g. /blog/
 relative_url: "portfolio"
-url: "http://abradat.github.io/portfolio" # the base hostname & protocol for your site
+url: "http://abradat.github.io" # the base hostname & protocol for your site
 # markdown: kramdown
 # highlighter: rouge
 # kramdown:
