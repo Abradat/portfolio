@@ -2,10 +2,10 @@ collections:
   projects:
     output: true
     sort_by: order
-    permalink: portfolio/:collection/:name
-baseurl: "portfolio" # the subpath of your site, e.g. /blog/
-relative_url: "portfolio"
-url: "http://abradat.github.io/portfolio" # the base hostname & protocol for your site
+    permalink: :collection/:name
+baseurl: "/portfolio" # the subpath of your site, e.g. /blog/
+relative_url: "/portfolio"
+url: "http://abradat.github.io/" # the base hostname & protocol for your site
 # markdown: kramdown
 # highlighter: rouge
 # kramdown:
