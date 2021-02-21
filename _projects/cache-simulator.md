@@ -45,5 +45,5 @@ The application is implemented based on MVC architecture. It is consisted of 5 v
 {: .table .table-striped}
 | Technology | Usage |
 |------------------|--------|
-| <img src="{{'/assets/img/portfolio/technologies/swift.png' | relative_url}}" width="60" height="60"> | **Swift** is the languages for developing ios applications. |
+| <img src="{{'assets/img/portfolio/technologies/swift.png' | relative_url}}" width="60" height="60"> | **Swift** is the languages for developing ios applications. |
 | <img src="/portfolio/assets/img/portfolio/technologies/ios.png" width="60" height="60"> | The application has been devloped for the **ios** platform. |
