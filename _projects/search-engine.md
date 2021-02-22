@@ -1,6 +1,6 @@
 ---
 layout: portfolio_detail_large
-order: 10
+order: 13
 title:  Search Engine
 name: search-engine
 badge-description: A search engine based on the Inverted Index Algorithm and Flask framework.
@@ -16,7 +16,7 @@ images:
     - address: 'search.png'
       caption: 'Basic and advance search options'
     - address: 'history.png'
-      captiion: 'History of the previous searches'
+      caption: 'History of the previous searches'
     - address: 'results.png'
       caption: 'Results of the searches'
 ---

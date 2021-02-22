@@ -1,6 +1,6 @@
 ---
 layout: portfolio_detail_text
-order: 7
+order: 14
 title:  Linux Kernel Module
 name: linux-kernel-module
 badge-description: A kernel module for hooking read and write system calls and encryption using ROT13

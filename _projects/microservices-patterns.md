@@ -1,6 +1,6 @@
 ---
 layout: portfolio_detail_text
-order: 6
+order: 10
 title:  Microservices Patterns
 name: microservices-patterns
 badge-description: Implementation of microservices common patterns, including API gateway, async communication, redis sentinel, and security through OCID.

@@ -1,6 +1,6 @@
 ---
 layout: portfolio_detail_large
-order: 5
+order: 8
 title:  Microservices Saga Pattern
 name: saga-pattern
 badge-description: Saga is a pattern for managing distributed transactions in microservices architecture.
