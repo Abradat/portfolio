@@ -3,6 +3,7 @@ layout: portfolio_detail
 order: 1
 title:  CSD V2
 name: csd-v2
+date: 2021-02-10
 badge-description: A new version of Central Bank of Iran’s CSD system based on microservices architecture.
 filter: filter-web
 badge-image: badge.jpg
@@ -33,9 +34,9 @@ As the main developer of the team, I am responsible for:
 {: .table .table-striped}
 | Technology | Usage | Website |
 |------------------|--------|---------|
-| <img src="/assets/img/portfolio/technologies/java.png" width="60" height="60"> | **Java** is used for developing backend services | [www.java.com](https://java.com){:target="_blank"} |
-| <img src="/assets/img/portfolio/technologies/typescript.png" width="60" height="60"> | **Typescript** is the main language used for developing Angular applications. | [www.typescriptlang.org](https://www.typescriptlang.org/){:target="_blank"} |
-| <img src="/assets/img/portfolio/technologies/spring-boot.png" width="60" height="60"> | **Spring Boot** framrwork is used for developing backend services based on **microservices** architecture | [www.spring.io/projects/spring-boot](https://spring.io/projects/spring-boot){:target="_blank"} |
+| <img src="{{'assets/img/portfolio/technologies/java.png' | relative_url}}" width="60" height="60"> | **Java** is used for developing backend services | [www.java.com](https://java.com){:target="_blank"} |
+| <img src="{{'assets/img/portfolio/technologies/typescript.png' | relative_url}}" width="60" height="60"> | **Typescript** is the main language used for developing Angular applications. | [www.typescriptlang.org](https://www.typescriptlang.org/){:target="_blank"} |
+| <img src="{{'assets/img/portfolio/technologies/spring-boot.png' | relative_url}}" width="60" height="60"> | **Spring Boot** framrwork is used for developing backend services based on **microservices** architecture | [www.spring.io/projects/spring-boot](https://spring.io/projects/spring-boot){:target="_blank"} |
 | <img src="/assets/img/portfolio/technologies/spring.png" width="60" height="60"> | **Spring** frameworks, including Spring Cloud, Spring Security, Spring Data, etc. are used for developing backend services. | [www.spring.io](https://spring.io){:target="_blank"} |
 | <img src="/assets/img/portfolio/technologies/angular.png" width="60" height="60"> | **Angular** framework is used for developing GUI web applications. | [www.angular.io](https://www.angular.io){:target="_blank"} |
 | <img src="/assets/img/portfolio/technologies/keycloak.png" width="60" height="60"> | **Keycloak** acts as the authentication and authorization service for the system. It is based on OpenID Connect and OAuth2 | [www.keycloak.org](https://www.keycloak.org/){:target="_blank"} |

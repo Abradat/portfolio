@@ -19,15 +19,15 @@
   <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
 
   <!-- Vendor CSS Files -->
-  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-  <link href="assets/vendor/icofont/icofont.min.css" rel="stylesheet">
-  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
-  <link href="assets/vendor/venobox/venobox.css" rel="stylesheet">
-  <link href="assets/vendor/owl.carousel/assets/owl.carousel.min.css" rel="stylesheet">
-  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="{{'assets/vendor/bootstrap/css/bootstrap.min.css' | relative_url}}" rel="stylesheet">
+  <link href="{{'assets/vendor/icofont/icofont.min.css' | relative_url}}" rel="stylesheet">
+  <link href="{{'assets/vendor/boxicons/css/boxicons.min.css' | relative_url}}" rel="stylesheet">
+  <link href="{{'assets/vendor/venobox/venobox.css' | relative_url}}" rel="stylesheet">
+  <link href="{{'assets/vendor/owl.carousel/assets/owl.carousel.min.css' | relative_url}}" rel="stylesheet">
+  <link href="{{'assets/vendor/aos/aos.css' | relative_url}}" rel="stylesheet">
 
   <!-- Template Main CSS File -->
-  <link href="assets/css/style.css" rel="stylesheet">
+  <link href="{{'assets/css/style.css' | relative_url}}" rel="stylesheet">
 
   <!-- =======================================================
   * Template Name: MyResume - v2.2.1
@@ -485,8 +485,8 @@
           </div>
 
           <div class="row portfolio-container" data-aos="fade-up" data-aos-delay="200">
-
-            {% for project in site.projects %}
+            {% assign projects_by_order = site.projects | sort: "order" %}
+            {% for project in projects_by_order %}
               <div class="col-lg-4 col-md-6 portfolio-item {{project.filter}}">
                 <div class="portfolio-wrap">
                   <img src="assets/img/portfolio/{{project.name}}/{{project.badge-image}}" class="img-fluid" alt="" style="background-color: white">
