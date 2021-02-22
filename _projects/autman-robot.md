@@ -26,6 +26,6 @@ This application
 {: .table .table-striped}
 | Technology | Usage |
 |------------------|--------|
-| <img src="/assets/img/portfolio/technologies/python.png" width="60" height="60"> | **Python** is the languages used for projects. |
-| <img src="/assets/img/portfolio/technologies/qt.png" width="80" height="60"> | **Qt** and its python wrapper, **PyQt** frameworks are used for developing applications. |
-| <img src="/assets/img/portfolio/technologies/sqlite.png" width="110" height="60"> | **SQLite** is used as database|
+| <img src="{{'assets/img/portfolio/technologies/python.png' | relative_url}}" width="60" height="60"> | **Python** is the languages used for projects. |
+| <img src="{{'assets/img/portfolio/technologies/qt.png' | relative_url}}" width="80" height="60"> | **Qt** and its python wrapper, **PyQt** frameworks are used for developing applications. |
+| <img src="{{'assets/img/portfolio/technologies/sqlite.png' | relative_url}}" width="110" height="60"> | **SQLite** is used as database|

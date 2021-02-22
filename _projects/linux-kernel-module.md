@@ -22,6 +22,6 @@ This project is a module for hooking system calls at the kernel level. This modu
 {: .table .table-striped}
 | Technology | Usage |
 |------------------|--------|
-| <img src="/assets/img/portfolio/technologies/c.png" width="60" height="60"> | **C** is the main language being used in kernel development |
-| <img src="/assets/img/portfolio/technologies/linux.png" width="60" height="60"> | All the development has been done on **Linux Kernel** |
-| <img src="/assets/img/portfolio/technologies/git.png" width="60" height="60"> | **Git** is used for the version control. |
+| <img src="{{'assets/img/portfolio/technologies/c.png' | relative_url}}" width="60" height="60"> | **C** is the main language being used in kernel development |
+| <img src="{{'assets/img/portfolio/technologies/linux.png' | relative_url}}" width="60" height="60"> | All the development has been done on **Linux Kernel** |
+| <img src="{{'assets/img/portfolio/technologies/git.png' | relative_url}}" width="60" height="60"> | **Git** is used for the version control. |

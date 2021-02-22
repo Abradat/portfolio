@@ -42,12 +42,12 @@ I implemented security pattern for microservices using **Keycloak**. It provides
 {: .table .table-striped}
 | Technology | Usage |
 |------------------|--------|
-| <img src="/assets/img/portfolio/technologies/java.png" width="60" height="60"> | **Java** is used for developing backend services |
-| <img src="/assets/img/portfolio/technologies/spring-boot.png" width="60" height="60"> | **Spring Boot** framrwork is used for developing backend services based on **microservices** architecture |
-| <img src="/assets/img/portfolio/technologies/spring.png" width="60" height="60"> | **Spring Cloud Gateway** for implementing API Gateway, **Spring Security** for security concerns, and **Spring Data JPA** for dealing with database.|
-| <img src="/assets/img/portfolio/technologies/ibm-mq.png" width="60" height="60"> | **IBM MQ** is a message queue which is used for exchanging messages between Socket IO client and banks themselves |
-| <img src="/assets/img/portfolio/technologies/kafka.png" width="60" height="60"> | **Apache Kafka** is a streaming platform for exchanging messages between mail and tweet servies. |
-| <img src="/assets/img/portfolio/technologies/keycloak.png" width="60" height="60"> | **Keycloak** acts as the authentication and authorization service for the system. It is based on OpenID Connect and OAuth2 |
-| <img src="/assets/img/portfolio/technologies/redis.png" width="60" height="60"> | **Redis** is used for implementing distributed configuration services. |
-| <img src="/assets/img/portfolio/technologies/docker.png" width="60" height="60"> | **Docker** is used for virtualization and containerizing services, including backend and frontend services. |
-| <img src="/assets/img/portfolio/technologies/git.png" width="60" height="60"> | **Git** is used for version control |
+| <img src="{{'assets/img/portfolio/technologies/java.png' | relative_url}}" width="60" height="60"> | **Java** is used for developing backend services |
+| <img src="{{'assets/img/portfolio/technologies/spring-boot.png' | relative_url}}" width="60" height="60"> | **Spring Boot** framrwork is used for developing backend services based on **microservices** architecture |
+| <img src="{{'assets/img/portfolio/technologies/spring.png' | relative_url}}" width="60" height="60"> | **Spring Cloud Gateway** for implementing API Gateway, **Spring Security** for security concerns, and **Spring Data JPA** for dealing with database.|
+| <img src="{{'assets/img/portfolio/technologies/ibm-mq.png' | relative_url}}" width="60" height="60"> | **IBM MQ** is a message queue which is used for exchanging messages between Socket IO client and banks themselves |
+| <img src="{{'assets/img/portfolio/technologies/kafka.png' | relative_url}}" width="60" height="60"> | **Apache Kafka** is a streaming platform for exchanging messages between mail and tweet servies. |
+| <img src="{{'assets/img/portfolio/technologies/keycloak.png' | relative_url}}" width="60" height="60"> | **Keycloak** acts as the authentication and authorization service for the system. It is based on OpenID Connect and OAuth2 |
+| <img src="{{'assets/img/portfolio/technologies/redis.png' | relative_url}}" width="60" height="60"> | **Redis** is used for implementing distributed configuration services. |
+| <img src="{{'assets/img/portfolio/technologies/docker.png' | relative_url}}" width="60" height="60"> | **Docker** is used for virtualization and containerizing services, including backend and frontend services. |
+| <img src="{{'assets/img/portfolio/technologies/git.png' | relative_url}}" width="60" height="60"> | **Git** is used for version control |

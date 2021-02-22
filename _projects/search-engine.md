@@ -29,8 +29,8 @@ The search engine is a web application based on **Flask** framework. Data is cra
 {: .table .table-striped}
 | Technology | Usage |
 |------------------|--------|
-| <img src="/assets/img/portfolio/technologies/python.png" width="60" height="60"> | **Python** is used for developing the application. |
-| <img src="/assets/img/portfolio/technologies/flask.png" width="80" height="60"> | **Flask** is the web framework used for this search engine. |
-| <img src="/assets/img/portfolio/technologies/scrapy.png" width="120" height="48"> | **Scrapy** is used for crawling websites. |
-| <img src="/assets/img/portfolio/technologies/core-nlp.png" width="110" height="60"> | **NLTK** by stanford is used for normalizing text crawled from websites.|
-| <img src="/assets/img/portfolio/technologies/sqlite.png" width="110" height="60"> | **SQLite** is used as database|
+| <img src="{{'assets/img/portfolio/technologies/python.png' | relative_url}}" width="60" height="60"> | **Python** is used for developing the application. |
+| <img src="{{'assets/img/portfolio/technologies/flask.png' | relative_url}}" width="80" height="60"> | **Flask** is the web framework used for this search engine. |
+| <img src="{{'assets/img/portfolio/technologies/scrapy.png' | relative_url}}" width="120" height="48"> | **Scrapy** is used for crawling websites. |
+| <img src="{{'assets/img/portfolio/technologies/core-nlp.png' | relative_url}}" width="110" height="60"> | **NLTK** by stanford is used for normalizing text crawled from websites.|
+| <img src="{{'assets/img/portfolio/technologies/sqlite.png' | relative_url}}" width="110" height="60"> | **SQLite** is used as database|

@@ -34,11 +34,11 @@ As the main developer of the team, I am responsible for:
 {: .table .table-striped}
 | Technology | Usage |
 |------------------|--------|
-| <img src="/assets/img/portfolio/technologies/java.png" width="60" height="60"> | **Java** is used for developing backend services |
-| <img src="/assets/img/portfolio/technologies/typescript.png" width="60" height="60"> | **Typescript** is the main language used for developing Angular applications. |
-| <img src="/assets/img/portfolio/technologies/spring-boot.png" width="60" height="60"> | **Spring Boot** framrwork is used for developing backend services based on **microservices** architecture |
-| <img src="/assets/img/portfolio/technologies/spring.png" width="60" height="60"> | **Spring** frameworks, including Spring Cloud, Spring Security, Spring Data, etc. are used for developing backend services. |
-| <img src="/assets/img/portfolio/technologies/ibm-mq.png" width="60" height="60"> | **IBM MQ** is a message queue which is used for exchanging messages between Socket IO client and banks themselves |
-| <img src="/assets/img/portfolio/technologies/angular.png" width="60" height="60"> | **Angular** framework is used for developing GUI web applications. |
-| <img src="/assets/img/portfolio/technologies/docker.png" width="60" height="60"> | **Docker** is used for virtualization and containerizing services, including backend and frontend services. |
-| <img src="/assets/img/portfolio/technologies/svn.png" width="100" height="60"> | **SVN** is used for version control |
+| <img src="{{'assets/img/portfolio/technologies/java.png' | relative_url}}" width="60" height="60"> | **Java** is used for developing backend services |
+| <img src="{{'assets/img/portfolio/technologies/typescript.png' | relative_url}}" width="60" height="60"> | **Typescript** is the main language used for developing Angular applications. |
+| <img src="{{'assets/img/portfolio/technologies/spring-boot.png' | relative_url}}" width="60" height="60"> | **Spring Boot** framrwork is used for developing backend services based on **microservices** architecture |
+| <img src="{{'assets/img/portfolio/technologies/spring.png' | relative_url}}" width="60" height="60"> | **Spring** frameworks, including Spring Cloud, Spring Security, Spring Data, etc. are used for developing backend services. |
+| <img src="{{'assets/img/portfolio/technologies/ibm-mq.png' | relative_url}}" width="60" height="60"> | **IBM MQ** is a message queue which is used for exchanging messages between Socket IO client and banks themselves |
+| <img src="{{'assets/img/portfolio/technologies/angular.png' | relative_url}}" width="60" height="60"> | **Angular** framework is used for developing GUI web applications. |
+| <img src="{{'assets/img/portfolio/technologies/docker.png' | relative_url}}" width="60" height="60"> | **Docker** is used for virtualization and containerizing services, including backend and frontend services. |
+| <img src="{{'assets/img/portfolio/technologies/svn.png' | relative_url}}" width="100" height="60"> | **SVN** is used for version control |

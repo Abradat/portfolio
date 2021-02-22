@@ -36,7 +36,7 @@ The source code of the project is available through [here](https://github.com/ab
 | Technology | Usage |
 |------------------|--------|
 | <img src="{{'assets/img/portfolio/technologies/python.png' | relative_url}}" width="60" height="60"> | **Python** is used for developing AUTCup 2016 application. |
-| <img src="/assets/img/portfolio/technologies/go.png" width="60" height="60"> | **Go** is used for developing AUTCup 2018 application. |
-| <img src="/assets/img/portfolio/technologies/qt.png" width="80" height="60"> | **Qt** and its python wrapper, **PyQt** frameworks are used for developing AUTCup 2016 |
-| <img src="/assets/img/portfolio/technologies/beego.png" width="110" height="60"> | **Beego** is the web framework used for AUTCup 2018 |
-| <img src="/assets/img/portfolio/technologies/sqlite.png" width="110" height="60"> | **SQLite** is used as database for both AUTCup 2016 and AUTCup 2018.|
+| <img src="{{'assets/img/portfolio/technologies/go.png' | relative_url}}" width="60" height="60"> | **Go** is used for developing AUTCup 2018 application. |
+| <img src="{{'assets/img/portfolio/technologies/qt.png' | relative_url}}" width="80" height="60"> | **Qt** and its python wrapper, **PyQt** frameworks are used for developing AUTCup 2016 |
+| <img src="{{'assets/img/portfolio/technologies/beego.png' | relative_url}}" width="110" height="60"> | **Beego** is the web framework used for AUTCup 2018 |
+| <img src="{{'assets/img/portfolio/technologies/sqlite.png' | relative_url}}" width="110" height="60"> | **SQLite** is used as database for both AUTCup 2016 and AUTCup 2018.|
