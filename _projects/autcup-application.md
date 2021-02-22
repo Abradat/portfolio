@@ -1,6 +1,6 @@
 ---
 layout: portfolio_detail
-order: 7
+order: 17
 title:  AUTCUP Application
 name: autcup-application
 badge-description: Applications for robotic leagues management for AUTCUP 2018 and AUTCUP 2016 international competitions.
