@@ -14,13 +14,13 @@ project-url:
 github-repository:
 full-description: A new version of Central Bank of Iran’s CSD system. The project is based on the microservices architecture.
 images:
-    - address: 'home.jpg'
+    - address: 'home.png'
       caption: 'Home Page for the Admin Dashboard'
-    - address: 'participants.jpg'
+    - address: 'participants.png'
       caption: 'List of Participants in the System'
-    - address: 'define.jpg'
+    - address: 'define.png'
       caption: 'Menu for Issuing Securities'
-    - address: 'login.jpg'
+    - address: 'login.png'
       caption: 'Login Page'
 ---
 ****NOTE: None of ISC's projects are open source. So, I am not able to share the code which I have written in this project.**
