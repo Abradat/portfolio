@@ -21,6 +21,7 @@ images:
     - address: 'shn-05.png'
       caption: 'Screenshot of the live status of the services in the Angular Application'
 ---
+****NOTE: None of ISC's projects are open source. So, I am not able to share the code which I have written in this project.**
 #### Introduction
 IIP is Central Bank of Iran’s newest inter-bank payment system. IIP services are available all-around-the clock and should result in the immediate or close to immediate crediting of the Beneficiary’s account. The project is based on **microservice** architecture.
 

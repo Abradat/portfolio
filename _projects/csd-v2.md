@@ -1,5 +1,5 @@
 ---
-layout: portfolio_detail
+layout: portfolio_detail_large
 order: 1
 title:  CSD V2
 name: csd-v2
@@ -14,12 +14,25 @@ project-url:
 github-repository:
 full-description: A new version of Central Bank of Iran’s CSD system. The project is based on the microservices architecture.
 images:
-    - 'testimonials-1.jpg'
-    - 'testimonials-2.jpg'
-    - 'testimonials-3.jpg'
+    - address: 'home.jpg'
+      caption: 'Home Page for the Admin Dashboard'
+    - address: 'participants.jpg'
+      caption: 'List of Participants in the System'
+    - address: 'define.jpg'
+      caption: 'Menu for Issuing Securities'
+    - address: 'login.jpg'
+      caption: 'Login Page'
 ---
+****NOTE: None of ISC's projects are open source. So, I am not able to share the code which I have written in this project.**
 #### Introduction
 Development of the new version of Central Securities Depository (CSD) system of the Central Bank of Iran (CBI) started from May 2020. Business of the system completely changed. Also, we started writing code from scratch using **Spring Boot** and **Spring** frameworks for back-end development based **microservices** architecture. Also, the Web UI dashboard was completely redesigned and implemented based on **Angular** framework and **Nebular** web kit.
+
+<div class="text-center">
+    <figure class="figure">
+        <img src="{{'assets/img/portfolio/csd-v2/arch.png' | relative_url}}" class="figure-img img-fluid rounded" alt="Technical Architecture">
+        <figcaption class="figure-caption text-center">Technical Architecture of the System</figcaption>
+    </figure>
+</div>
 
 #### My Reponsibilites
 As the main developer of the team, I am responsible for:

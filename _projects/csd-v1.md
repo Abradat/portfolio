@@ -13,13 +13,22 @@ project-url:
 github-repository:
 full-description: The first version of Central Securities Depository system based on the microservices architecture.
 images:
-    - 'testimonials-1.jpg'
-    - 'testimonials-2.jpg'
-    - 'testimonials-3.jpg'
+    - address: 'overall.png'
+      caption: 'Overall Architecture of MP01 (CSD V1)'
+    - address: 'dashboard.png'
+      caption: 'Dashboad of the Angular Web Application'
 ---
 ****NOTE: None of ISC's projects are open source. So, I am not able to share the code which I have written in this project.**
 #### Introduction
 Central Bank of Iran’s service for providing inter-bank security market and communication with Tehran Exchange Market. The project was implemented based on microservice architecture.
+
+<div class="text-center">
+    <figure class="figure">
+        <img src="{{'assets/img/portfolio/csd-v1/arch.png' | relative_url}}" class="figure-img img-fluid rounded" alt="Technical Architecture">
+        <figcaption class="figure-caption text-center">Technical Architecture of the System</figcaption>
+    </figure>
+</div>
+
 #### My Responsibilites
 As the main developer of the team, I am responsible for:
 1. Developed back-end services based on **Spring Boot** and **Spring** frameworks.
