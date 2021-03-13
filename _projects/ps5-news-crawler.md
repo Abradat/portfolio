@@ -51,16 +51,16 @@ This project is developed for crawling recent articles from **CNN** and recent *
 #### Technologies/Languages Used
 
 {: .table .table-striped}
-| Technology | Usage | Website |
-|------------------|--------|---------|
-| <img src="{{'assets/img/portfolio/technologies/java.png' | relative_url}}" width="60" height="60"> | **Java** is used for developing backend services | [www.java.com](https://java.com){:target="_blank"} |
-| <img src="{{'assets/img/portfolio/technologies/typescript.png' | relative_url}}" width="60" height="60"> | **Typescript** is the main language used for developing Angular applications. | [www.typescriptlang.org](https://www.typescriptlang.org/){:target="_blank"} |
-| <img src="{{'assets/img/portfolio/technologies/spring-boot.png' | relative_url}}" width="60" height="60"> | **Spring Boot** framrwork is used for developing backend services for exposing REST endpoints and crawling CNN and Twitter | [www.spring.io/projects/spring-boot](https://spring.io/projects/spring-boot){:target="_blank"} |
-| <img src="{{'assets/img/portfolio/technologies/spring.png' | relative_url}}" width="60" height="60"> | **Spring** frameworks, including Spring Cloud, Spring Security, Spring Data, etc. are used for developing backend services. | [www.spring.io](https://spring.io){:target="_blank"} |
-| <img src="{{'assets/img/portfolio/technologies/core-nlp.png' | relative_url}}" width="120" height="60"> | **Stanford Core NLP** is used for extracting crawled tweets' sentiments in order to analyze people's oponion about PS5| [www.spring.io](https://spring.io){:target="_blank"} |
-| <img src="{{'assets/img/portfolio/technologies/angular.png' | relative_url}}" width="60" height="60"> | **Angular** framework is used for developing GUI web applications. | [www.angular.io](https://www.angular.io){:target="_blank"}|
-| <img src="{{'assets/img/portfolio/technologies/selenium.png' | relative_url}}" width="60" height="60"> | **SELENIUM** is an standalone browser for crawling CNN. | [www.selenium.dev](https://www.selenium.dev){:target="_blank"} |
-| <img src="{{'assets/img/portfolio/technologies/docker.png' | relative_url}}" width="60" height="60"> | **Docker** is used for virtualization and containerizing services, including backend and frontend services. | [www.docker.com](https://www.docker.com/){:target="_blank"} |
-| <img src="{{'assets/img/portfolio/technologies/postgre.png' | relative_url}}" width="60" height="60"> | **PostgreSQL** databse is used for persisting news and tweets | [www.postgresql.org](https://www.postgresql.org/){:target="_blank"}|
-| <img src="{{'assets/img/portfolio/technologies/nginx.svg' | relative_url}}" width="110" height="60"> | **NGINX** web server is used for deploying angular application. | [www.nginx.com](https://nginx.com){:target="_blank"} |
-| <img src="{{'assets/img/portfolio/technologies/git.png' | relative_url}}" width="60" height="60"> | **Git** is used for version control. | [www.git-scm.com](https://git-scm.com){:target="_blank"} |
+| Technology | Usage |
+|------------------|--------|
+| <img src="{{'assets/img/portfolio/technologies/java.png' | relative_url}}" width="60" height="60"> | **Java** is used for developing backend services |
+| <img src="{{'assets/img/portfolio/technologies/typescript.png' | relative_url}}" width="60" height="60"> | **Typescript** is the main language used for developing Angular applications. |
+| <img src="{{'assets/img/portfolio/technologies/spring-boot.png' | relative_url}}" width="60" height="60"> | **Spring Boot** framework is used for developing backend services for exposing REST endpoints and crawling CNN and Twitter |
+| <img src="{{'assets/img/portfolio/technologies/spring.png' | relative_url}}" width="60" height="60"> | **Spring** frameworks, including Spring Cloud, Spring Security, Spring Data, etc. are used for developing backend services. |
+| <img src="{{'assets/img/portfolio/technologies/core-nlp.png' | relative_url}}" width="120" height="60"> | **Stanford Core NLP** is used for extracting crawled tweets' sentiments in order to analyze people's oponion about PS5|
+| <img src="{{'assets/img/portfolio/technologies/angular.png' | relative_url}}" width="60" height="60"> | **Angular** framework is used for developing GUI web applications. |
+| <img src="{{'assets/img/portfolio/technologies/selenium.png' | relative_url}}" width="60" height="60"> | **SELENIUM** is an standalone browser for crawling CNN. |
+| <img src="{{'assets/img/portfolio/technologies/docker.png' | relative_url}}" width="60" height="60"> | **Docker** is used for virtualization and containerizing services, including backend and frontend services. |
+| <img src="{{'assets/img/portfolio/technologies/postgre.png' | relative_url}}" width="60" height="60"> | **PostgreSQL** databse is used for persisting news and tweets |
+| <img src="{{'assets/img/portfolio/technologies/nginx.svg' | relative_url}}" width="110" height="60"> | **NGINX** web server is used for deploying angular application. |
+| <img src="{{'assets/img/portfolio/technologies/git.png' | relative_url}}" width="60" height="60"> | **Git** is used for version control. |

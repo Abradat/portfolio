@@ -16,7 +16,7 @@ full-description: List of applications which I developed for AUTMan's teen size 
 #### Motion Editor (KIARASH)
 This application is for monitoring and configuring all of the HERKULEX 18 motors in KIARASH, an Iranian standard platform humanoid robot. Also, seqeunce of motions can be captured for motion generation.  
 
-Source code of the project is available through [here](https://github.com/abradat/aut-motion-py3){:target="_blank"} 
+<i class="bx bxl-github"></i> Source code of the project is available through [here](https://github.com/abradat/aut-motion-py3){:target="_blank"}
 <div class="text-center">
     <figure class="figure">
         <img src="{{'assets/img/portfolio/autman-robot/motion-editor/home.png' | relative_url}}" class="figure-img img-fluid rounded" alt="Architecture of the Network" style="width: 80%; height: 80%">
@@ -33,7 +33,7 @@ Source code of the project is available through [here](https://github.com/abrada
 #### Motion Editor (Robocup)
 This application is for monitoring Dynamixel motors and motion generation for AUTMan team's teen size humanoid robot for international Robocup 2017 competition.
 
-Soure code of the project is available through [here](https://github.com/Abradat/MotionEditor-py3){:target="_blank"}
+<i class="bx bxl-github"></i> Soure code of the project is available through [here](https://github.com/Abradat/MotionEditor-py3){:target="_blank"}
 <div class="text-center">
     <figure class="figure">
         <img src="{{'assets/img/portfolio/autman-robot/motion-editor-robocup/angle.png' | relative_url}}" class="figure-img img-fluid rounded" alt="Architecture of the Network" style="width: 80%; height: 80%">
@@ -44,7 +44,7 @@ Soure code of the project is available through [here](https://github.com/Abradat
 #### Walk Tuner
 This application is used for configuring walking parameters in teen size humanoid robots, developed for international Robocup 2017 competition.
 
-Soure code of the project is available through [here](https://github.com/Abradat/WalkTuner-py3){:target="_blank"}
+<i class="bx bxl-github"></i> Soure code of the project is available through [here](https://github.com/Abradat/WalkTuner-py3){:target="_blank"}
 <div class="text-center">
     <figure class="figure">
         <img src="{{'assets/img/portfolio/autman-robot/walk-tuner/param.png' | relative_url}}" class="figure-img img-fluid rounded" alt="Architecture of the Network" style="width: 80%; height: 80%">
@@ -55,7 +55,7 @@ Soure code of the project is available through [here](https://github.com/Abradat
 #### Offset Tuner
 This application is used for tuning the offset parameters for teen size humanoid robot, developed for international Robocup 2017 competition.
 
-Soure code of the project is available through [here](https://github.com/Abradat/OffsetTuner-py3){:target="_blank"}
+<i class="bx bxl-github"></i> Soure code of the project is available through [here](https://github.com/Abradat/OffsetTuner-py3){:target="_blank"}
 <div class="text-center">
     <figure class="figure">
         <img src="{{'assets/img/portfolio/autman-robot/offset-tuner/joint.png' | relative_url}}" class="figure-img img-fluid rounded" alt="Architecture of the Network" style="width: 80%; height: 80%">

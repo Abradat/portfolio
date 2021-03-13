@@ -25,11 +25,11 @@ images:
 #### AUTCup 2016
 For AUTCup 2016, I developed an application based on **Qt** and **PyQt** framework. Each robotic league has its own page, and teams' list and their score in each level can be submitted.
 
-The source code of the project is available through [here](https://github.com/Abradat/AUTCUP2016Application).
+<i class="bx bxl-github"></i>  Source code of the project is available through [here](https://github.com/Abradat/AUTCUP2016Application).
 #### AUTCup 2018
 I completely redesigned the application for this competition. Instead of an offline qt application, it is a web application based on **beego** framework written in **Go** languages.
 
-The source code of the project is available through [here](https://github.com/abradat/autcup2018-webapp).
+<i class="bx bxl-github"></i> Source code of the project is available through [here](https://github.com/abradat/autcup2018-webapp).
 #### Technologies/Languages Used
 
 {: .table .table-striped}
