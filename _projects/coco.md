@@ -4,9 +4,9 @@ order: 5
 title:  Coco (Unity Game)
 name: coco
 badge-description: A puzzle game made with Unity with Image processing for interaction.
-filter: filter-ai filter-unity
+filter: filter-ai filter-game
 badge-image: badge.png
-category: Unity, AI
+category: Game, AI
 client:
 project-date: January 2020
 project-url:

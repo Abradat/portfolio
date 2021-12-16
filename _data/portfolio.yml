@@ -2,7 +2,7 @@ enable: true
 filters:
   - web
   - ai
-  - unity
+  - game
   - os
   - robotics
   - mobile
