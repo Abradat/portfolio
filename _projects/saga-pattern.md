@@ -10,7 +10,7 @@ category: Web
 client:
 project-date: Winter 2018
 project-url:
-github-repository: abradat/microservices-saga
+github-repository: abradat/microservice-saga
 full-description: Saga is a pattern for managing distributed transactions in microservices.
 images:
     - address: 'saga.png'
