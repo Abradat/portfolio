@@ -2,16 +2,16 @@
 layout: portfolio_detail
 order: 4
 title:  Reddit Analysis
-name: reddit
-badge-description: EcoGo is an application for changing people's walking behavior by engaging them in a gamified and exciting experience.
-filter: filter-ai
-badge-image: logo.png
-category: Web, Mobile
-client: Centre For Digital Media
-project-date: Fall 2021
-project-url: https://www.notion.so/syg-lab/EcoGo-The-Green-Goblins-4b43faba1064462499d4e71fa5bf356f
-github-repository: abradat/ecogo-mobile-app
-full-description: EcoGo is an application for changing people's walking behavior by engaging them in a gamified and exciting experience.
+name: reddit-analysis
+badge-description: Application for crawling subreddit posts from the Reddit website and analyzing their parameters and trends for comparing subreddits with each other
+filter: filter-ai filter-web
+badge-image: logo.jpeg
+category: Data crawler, Data Analysis
+# client: 
+project-date: Winter 2021
+# project-url: https://www.notion.so/syg-lab/EcoGo-The-Green-Goblins-4b43faba1064462499d4e71fa5bf356f
+github-repository: abradat/reddit-analysis
+full-description: Application for crawling subreddit posts from the Reddit website and analyzing their parameters and trends for comparing subreddits with each other
 images:
     - address: 'home.jpg'
       caption: 'Home Screen of the application'
