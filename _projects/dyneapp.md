@@ -1,6 +1,6 @@
 ---
 layout: portfolio_detail
-order: 2
+order: 5
 title:  Dyne
 name: dyneapp
 badge-description: Dyne helps users improve life over food by enabling them to meet new people with the same interests as them.

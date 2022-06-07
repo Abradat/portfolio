@@ -1,6 +1,6 @@
 ---
 layout: portfolio_detail
-order: 1
+order: 5
 title:  EcoGo
 name: ecogo
 badge-description: EcoGo is an application for changing people's walking behavior by engaging them in a gamified and exciting experience.
