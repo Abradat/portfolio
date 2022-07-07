@@ -1,5 +1,5 @@
 ---
-layout: portfolio_detail
+layout: portfolio_detail_text
 order: 4
 title:  Reddit Analysis
 name: reddit-analysis

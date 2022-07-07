@@ -22,7 +22,7 @@ images:
     - address: 'tree-customize.jpg'
       caption: 'Customization screen for tree house'
     - address: 'profile.jpg'
-      caption: 'Profile Screen'
+      caption: 'Profile Screen'yy
     - address: 'friends.jpg'
       caption: 'Friends Section'
     - address: 'shop.jpg'
