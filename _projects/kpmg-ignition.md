@@ -1,6 +1,6 @@
 ---
 layout: portfolio_detail_large
-order: 1
+order: 4
 title:  KPMG WebAR Exhibition
 name: kpmg-ignition
 badge-description: WebAR Application for KPMG Ignition Center's Exhibition
@@ -45,3 +45,13 @@ Your browser does not support the video tag.
   <source src="/portfolio/assets/img/portfolio/kpmg-ignition/banner.ogg" type="video/ogg">
 Your browser does not support the video tag.
 </video>
+
+#### Technologies/Languages Used
+
+{: .table .table-striped}
+| Technology | Usage |
+|------------------|--------|
+| <img src="{{'assets/img/portfolio/technologies/typescript.png' | relative_url}}" width="60" height="60"> | **Typescript** is the main language used for developing Angular applications. |
+| <img src="{{'assets/img/portfolio/technologies/arjs.png' | relative_url}}" width="80" height="60"> | **AR.js** is the open-source library used for building web-based AR applications. |
+| <img src="{{'assets/img/portfolio/technologies/aframe.png' | relative_url}}" width="60" height="60"> | **A-Frame** is the framework for rendering and interacting with 3D models in an AR application. |
+| <img src="{{'assets/img/portfolio/technologies/angular.png' | relative_url}}" width="60" height="60"> | **Angular** framework is used for developing GUI web applications. |
