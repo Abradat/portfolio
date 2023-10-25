@@ -51,10 +51,17 @@
             <h2 class="portfolio-title">{{page.title}}</h2>
             <div class="owl-carousel portfolio-details-carousel text-center">
                 {% for image in page.images %}
-                    <figure class="figure">
-                      <img src="/portfolio/assets/img/portfolio/{{page.name}}/{{image.address}}" class="img-fluid" alt="" style="max-width: fit-content; max-height: fit-content;">
-                       <figcaption class="figure-caption text-center" style="color: black;">{{image.caption}}</figcaption>
-                    </figure>
+                    {% if image.type == "video" %}
+                    <h2>sjsdkaljlkdsjklas</h2>
+                      <video height="240" width="300" controls>
+                        <source src="/portfolio/assets/img/portfolio/{{page.name}}/{{image.address}}" type="video/mp4">
+                      </video>
+                    {% else %}
+                      <figure class="figure">
+                        <img src="/portfolio/assets/img/portfolio/{{page.name}}/{{image.address}}" class="img-fluid" alt="" style="max-width: fit-content; max-height: fit-content;">
+                          <figcaption class="figure-caption text-center" style="color: black;">{{image.caption}}</figcaption>
+                      </figure>
+                    {% endif %}
 
                     <!-- <figcaption class="figure-caption">A caption for the above image.</figcaption> -->
                 {% endfor %}

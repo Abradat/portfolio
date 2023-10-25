@@ -72,7 +72,7 @@
               {% if page.client %}<li><strong>Client</strong>: {{page.client}}</li>{% endif %}
               <li><strong>Project date</strong>: {{page.project-date}}</li>
               {% if page.project-url %}
-              <li><strong>Project URL</strong>: <a href="#">www.example.com</a></li>
+              <li><strong>Project URL</strong>: <a href="{{page.project-url}}" target="_blank">Link</a></li>
               {% endif %}
               {% if page.github-repository %}
               <li><strong>Github Repository</strong>: 
@@ -81,10 +81,12 @@
               {% endif %}
             </ul>
 
+            {% if page.github-repository %}
             <p>
               <strong>Project Description</strong><br>
               {{page.full-description}}
             </p>
+            {% endif %}
           </div>
         </div>
 
