@@ -35,7 +35,7 @@ As a member of the team, I:
 {: .table .table-striped}
 | Technology | Usage |
 |------------------|--------|
-| <img src="{{'assets/img/portfolio/technologies/Java.png' | relative_url}}" width="60" height="60"> | **Java** language is used for the FFS development |
+| <img src="{{'assets/img/portfolio/technologies/java.png' | relative_url}}" width="60" height="60"> | **Java** language is used for the FFS development |
 | <img src="{{'assets/img/portfolio/technologies/js.png' | relative_url}}" width="60" height="60"> | **JavaScript** is used on the Node module. |
 | <img src="{{'assets/img/portfolio/technologies/groovy.png' | relative_url}}" width="60" height="60"> | **Groovy** is used in developing Jenkins pipelines' scripts. |
 | <img src="{{'assets/img/portfolio/technologies/php.svg' | relative_url}}" width="60" height="60"> | **PHP** is used as a technology for developing Slack Bot. |
